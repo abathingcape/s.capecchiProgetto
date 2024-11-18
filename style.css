@@ -1,0 +1,171 @@
+body {
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color:blanchedalmond;
+}
+.pagine{
+  width:85%;
+  font-size:23px;
+  background-color:white;
+  margin:115px auto 50px auto;
+  border-radius: 10px;
+  padding: 40px 60px 40px 60px;
+  font-size:17px;
+}
+.pagine > *{
+    display:grid;
+    grid-template-columns: 45% 55%;
+    row-gap: 50px;
+}
+area{
+  background-color: transparent;
+  transition: background-color 1s ease; /* transizione del background-color */
+  opacity: 0;
+}
+.active-background {
+  background-color: LightGrey; /* colore temporaneo */
+}
+/* Stile per il contenitore principale */
+.header {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/* Stile per l'immagine del logo */
+.header img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Stile per il titolo h2 */
+.header h2 {
+  font-family: 'Arial', sans-serif;
+  color: #000000; /* Colore nero */
+  font-size: 28px; /* Più grande */
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* Stile per h3 */
+.header h3 {
+  font-family: 'Arial', sans-serif;
+  color: #333333;
+  margin: 10px 0;
+  text-align: center;
+}
+
+/* Stile per il contenitore della descrizione */
+.desc h2, .buttons h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Stile per il contenitore della descrizione */
+.desc_prog {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+/* Stile dei pulsanti */
+.buttons button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cyan{background-color: deepskyblue;}
+.cyan:hover{background-color: cyan;}
+
+.gray { background-color: gray;}
+.gray:hover { background-color: lightgray}
+
+.yellow { background-color: #FFD700; }
+.yellow:hover { background-color: #E6C200; }
+
+.DarkOliveGreen { background-color: #556B2F; }
+.DarkOliveGreen:hover { background-color: #485D27; }
+
+.DeepPink { background-color: #FF1493; }
+.DeepPink:hover { background-color: #E01383; }
+
+.purple { background-color: #800080; }
+.purple:hover { background-color: #6A006A; }
+
+.DarkOrange { background-color: #FF8C00; }
+.DarkOrange:hover { background-color: #E67B00; }
+
+.LawnGreen { background-color: #7CFC00; }
+.LawnGreen:hover { background-color: #6FE200; }
+
+.red { background-color: #FF6347; }
+.red:hover { background-color: #E55641; }
+
+.DarkGreen { background-color: #006400; }
+.DarkGreen:hover { background-color: #005700; }
+
+.DarkSlateBlue { background-color: #483D8B; }
+.DarkSlateBlue:hover { background-color: #3E3477; }
+
+.DarkSalmon { background-color: #E9967A; }
+.DarkSalmon:hover { background-color: #CC8467; }
+
+.Maroon { background-color: #800000; }
+.Maroon:hover { background-color: #6A0000; }
+
+.DarkCyan { background-color: #008B8B; }
+.DarkCyan:hover { background-color: #007575; }
+
+button#abbr {
+  background-color: #C0C0C0;
+  color: #333333;
+}
+button#abbr:hover {
+  background-color: #A9A9A9;
+}
+
+footer {
+  background-color: #ffffff;
+  padding: 15px;
+  border-top: 1px solid #ddd;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.1);
+  position: relative; 
+  margin-top: 20px; 
+}
+
+
+footer img {
+  width: 30%; 
+  margin-bottom: 10px; 
+  display: block; 
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+footer p {
+  color: #333;
+  font-family: 'Arial', sans-serif; 
+  margin: 5px 0; 
+  font-size: 14px; 
+}

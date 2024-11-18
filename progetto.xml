@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="progetto.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digitazione di articoli, notizie e bibliografie selezionati da "La Rassegna Settimanale di Politica, Scienze, Lettere ed Arti."  </title>
+            </titleStmt>
+            <editionStmt>
+                <edition> Edizione Digitale - <date when="10-2024"> ottobre 2024 </date></edition>
+                <respStmt>
+                    <resp>Codifica curata da </resp>
+                    <name>Capecchi Samuele</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Progetto coordinato da</resp>
+                    <name>Angelo Mario Del Grosso</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <date when="2024">2024</date>
+                <availability status="free">
+                    <p>Opera ad accesso libero</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct type="article">
+                    <analytic xml:id="articolo_1">
+                        <title level="a">La settimana</title>
+                    </analytic>
+                    <analytic xml:id="articolo_2">
+                        <title level="a">Il parlamento</title>
+                    </analytic>
+                    <analytic xml:id="notizie_1">
+                        <title level="a">Notizie</title>
+                    </analytic>
+                    <analytic xml:id="notizie_2">
+                        <title level="a">Notizie</title>
+                    </analytic>
+                    <analytic xml:id="bibl">
+                        <title level="a">Bibliografia (Letteratura e storia e scienze naturali)</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">La Rassegna Settimanale di Politica, Scienze, Lettere ed Arti.</title>
+                        <textLang mainLang="it" otherLangs="lat">Italiano con entrate in latino</textLang>
+                        <imprint>
+                            <publisher>Casa Editrice Barbèra</publisher>
+                            <pubPlace>Firenze</pubPlace>
+                            <date when="1878-01-20">20 Gennaio 1878.</date>
+                        </imprint>
+                        <biblScope unit="volume">1</biblScope>
+                        <biblScope unit="issue">3,4,22</biblScope>
+                        <biblScope unit="page">39-40, 48, 64, 422-423</biblScope>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+              <p>Il progetto mira a codificare cinque articoli presi dal primo volume, cercando di garantire al massimo l'organizzazione e la corretta trascrizione dei contenuti.</p> 
+              <p>Gli articoli selezionati sono: <title ref="#articolo_1">La settimana</title>, <title ref="#articolo_2" >Il parlamento</title>, <title ref="#bibl" >Bibliografia (Letteratura e storia e scienze naturali)</title>, <title ref="#notizie_1" >Notizie 1</title> e <title ref="#notizie_2" >Notizie 2</title>.</p>
+            </projectDesc>
+          </encodingDesc>
+    </teiHeader>
+    <facsimile>
+        <surface xml:id="pg39">
+            <graphic url='foto/la_settimana1_il_parlamento.png' width='703.4px' height='1061.4px' />
+            <zone ulx="131" uly="739" lrx="255" lry="757" corresp="titolo_Il_parlamento"/>
+            <zone ulx="287" uly="758" lrx="341" lry="769" corresp="data_Il_parlamento"/>
+            <zone ulx="34" uly="770" lrx="359" lry="1002" corresp="P1_Il_parlamento1"/>
+            <zone ulx="358" uly="70" lrx="685" lry="237" corresp="P1_Il_parlamento2"/>
+            <zone ulx="361" uly="238" lrx="681" lry="299" corresp="P2_Il_parlamento"/>
+            <zone ulx="361" uly="299" lrx="687" lry="360" corresp="P3_Il_parlamento"/>
+            <zone ulx="363" uly="360" lrx="689" lry="391" corresp="P4_Il_parlamento"/>
+            <zone ulx="364" uly="391" lrx="687" lry="419" corresp="P5_Il_parlamento"/>
+
+            <zone ulx="467" uly="445" lrx="581" lry="462" corresp="titolo_La_settimana"/>
+            <zone ulx="608" uly="464" lrx="661" lry="474" corresp="data_La_settimana"/>
+            <zone ulx="362" uly="481" lrx="688" lry="615" corresp="P1_La_settimana"/>
+            <zone ulx="364" uly="618" lrx="691" lry="863" corresp="P2_La_settimana"/>
+            <zone ulx="365" uly="864" lrx="691" lry="1002" corresp="P3_La_settimana"/>
+        </surface>
+        <surface xml:id="pg40">
+            <graphic url='foto/la_settimana2.png' width='708.4px' height='1057.4px' />
+            <zone ulx="41" uly="66" lrx="366" lry="303" corresp="P4_La_settimana"/>
+            <zone ulx="41" uly="302" lrx="367" lry="488" corresp="P5_La_settimana"/>
+        </surface>
+        <surface xml:id="pg48">
+            <graphic url='foto/notizie1.png' width='733.4px' height='1058.4px' />
+            <zone ulx="193" uly="694" lrx="259" lry="714" corresp="titolo_Notizie" />
+            <zone ulx="61" uly="715" lrx="393" lry="847" corresp="P1_Notizie" />
+            <zone ulx="60" uly="858" lrx="391" lry="962" corresp="P2_Notizie"/>
+            <zone ulx="60" uly="963" lrx="391" lry="1018" corresp="P3_Notizie_1"/>
+            <zone ulx="399" uly="78" lrx="730" lry="179" corresp="P3_Notizie_2"/>
+            <zone ulx="398" uly="193" lrx="728" lry="445" corresp="P4_Notizie"/>
+            <zone ulx="397" uly="454" lrx="728" lry="911" corresp="P5_Notizie"/>
+        </surface>
+        <surface xml:id="pg64">
+            <graphic url='foto/notizie2.png' width='710.4px' height='1058.4px' />
+            <zone ulx="503" uly="358" lrx="567" lry="371" corresp="titolo_Notizie2"/>
+            <zone ulx="373" uly="372" lrx="699" lry="842" corresp="P1_Notizie2"/>
+            <zone ulx="374" uly="842" lrx="699" lry="879" corresp="P2_Notizie2"/>
+            <zone ulx="374" uly="880" lrx="699" lry="915" corresp="P3_Notizie2"/>
+        </surface>
+        <surface xml:id="pg422">
+            <graphic url='foto/bibl_lett.png' width='729.4px' height='1058.4px' />
+            <zone ulx="44" uly="434" lrx="370" lry="482" corresp="bibl_Letteratura_e_storia" />
+            <zone ulx="44" uly="482" lrx="370" lry="704" corresp="P1_Letteratura_e_storia"/>
+            <zone ulx="44" uly="704" lrx="369" lry="886" corresp="P2_Letteratura_e_storia"/>
+            <zone ulx="44" uly="885" lrx="367" lry="996" corresp="P3_Letteratura_e_storia1"/>
+            <zone ulx="380" uly="69" lrx="704" lry="290" corresp="P3_Letteratura_e_storia2"/>
+            <zone ulx="380" uly="290" lrx="703" lry="470" corresp="P4_Letteratura_e_storia" />
+            <zone ulx="380" uly="471" lrx="703" lry="664" corresp="P5_Letteratura_e_storia"/>
+        </surface>
+        <surface xml:id="pg423">
+            <graphic url='foto/bibl_scienze.png' width='739.4px' height='1059.4px' />
+            <zone ulx="44" uly="883" lrx="370" lry="914" corresp="bibl_Scienze_naturali"/>
+            <zone ulx="44" uly="914" lrx="368" lry="1000" corresp="P1_Scienze_naturali1"/>
+            <zone ulx="375" uly="70" lrx="703" lry="197" corresp="P1_Scienze_naturali2"/>
+            <zone ulx="375" uly="197" lrx="701" lry="377" corresp="P2_Scienze_naturali"/>
+            <zone ulx="375" uly="377" lrx="703" lry="554" corresp="P3_Scienze_naturali"/>
+            <zone ulx="374" uly="553" lrx="703" lry="637" corresp="P4_Scienze_naturali"/>
+            <zone ulx="374" uly="637" lrx="703" lry="805" corresp="P5_Scienze_naturali" />
+        </surface>
+    </facsimile>
+    <text xml:lang="it">
+        <body>
+            <div type="glossario">
+                <head>Glossario</head>
+                <list type="gloss">
+                    <item>
+                        <term>Verbum</term>
+                        <gloss>Parole ricollegate alla corrente verista.</gloss>
+                    </item>
+                    <item>
+                        <term>Tema</term>
+                        <gloss>tutti quei temi che riguardano la condizione dei lavoratori, del Meridione, aspetti letterari,storici e sociali, temi tipici della corrente verista.</gloss>
+                    </item>
+                </list>
+            </div>
+            <div type="articolo" n="1" xml:id="primo_articolo" source="#articolo_1">
+                <head xml:id="titolo_La_settimana">LA SETTIMANA.</head>
+                <docDate xml:id="data_La_settimana" when = "1878-01-18"> 18 Gennaio. </docDate>
+                <pb n="1" />
+                <cb/>
+                <ab xml:id="P1_La_settimana">
+                    <lb n="1"/>La tumulazione della salma di <persName><forename>Vittorio</forename> <surname>Emanuele</surname></persName> ha 
+                    <lb n="2"/>avuto luogo il <date when="1878-01-17">17</date> nel <placeName>Pantheon di <settlement type="city">Roma</settlement>. </placeName> Il desiderio di<settlement>
+                    <lb n="3"/>Torino</settlement> sarebbe stato che non si rompessero le tradizioni 
+                    <lb n="4"/>di <rs type="dinasty">Casa Savoia</rs> che hanno fatto di <placeName>Superga</placeName> <rs type="monument">la Tomba 
+                    <lb n="5"/>Reale;</rs> - ma <settlement>Torino</settlement> alla lunga serie de' suoi forti sacrifizi 
+                    <lb n="6"/>ha saputo aggiungere quello di consentire, con dolore sì 
+                    <lb n="7"/>ma senza rimpianto, che <persName><forename>Vittorio</forename> <surname>Emanuele</surname></persName> fosse tumulato 
+                    <lb n="8"/>in <settlement type="city">Roma</settlement>, perchè la sua tomba sia nuova affermazione del-
+                    <lb n="9" break="no"/>l'<term ref="#Tema">unità della patria.</term>
+                </ab>
+                <ab xml:id="P2_La_settimana">
+                    <lb n="10"/>Al trasporto funebre sono accorse da ogni parte d'<placeName type="nation">Italia</placeName> 
+                    <lb n="11"/><orgName type="municipality">Rappresentanza di Comuni</orgName> e <orgName type="province">Provincie</orgName>, <orgName type="deputation">Deputazioni di So-
+                    <lb n="12" break="no"/>cietà</orgName>, stuolo infinito di gente. È stato un supremo tributo 
+                    <lb n="13"/>di omaggio reso da tutto un popolo al suo <addName type="epithet">benefattore</addName>;-
+                    <lb n="14"/>è stata una nuova forma di <term ref="#Tema">plebiscito</term> con la quale <placeName subtype="homeland">l'Italia</placeName>
+                    <lb n="15"/> ha mostrato come sia fortemente costituita l'opera della 
+                    <lb n="16"/>quale <rs type="person">Egli</rs> fu tanta parte. Alla <addName type="epithet">mesta</addName> cerimonia hanno 
+                    <lb n="17"/>preso parte i <orgName>rappresentanti dei principali Stati d'<placeName>Europa</placeName>.</orgName>
+                    <lb n="18"/>L'<orgName><placeName type="nation">Austria</placeName>-<placeName type="nation">Ungheria</placeName> </orgName>era rappresentata dall' <addName type="epithet">Arciduca</addName> <persName><surname>Ra-
+                    <lb n="19" break="no"/>nieri</surname></persName>, <orgName>l'Impero Germanico</orgName> dal <rs type="person">Principe Imperiale</rs>, la <placeName type="nation">Fran-
+                    <lb n="20" break="no"/>cia</placeName> dal <addName type="epithet">Maresciallo</addName> <persName><surname>Canrobert</surname></persName>, la <placeName type="nation">Gran-Brettagna</placeName> da <addName type="epithet">Lord</addName> 
+                    <lb n="21"/><persName><surname>Roden</surname></persName>, il <placeName type="nation">Portogallo</placeName> dal <rs type="person">Principe Ereditario</rs>, il <orgName>Granducato 
+                    <lb n="22"/>di Baden</orgName> dal <addName type="epithet">Principe</addName> <persName><surname>Guglielmo</surname></persName>. Tutte le altre <orgName>Potenze</orgName>
+                    <lb n="23"/>erano rappresentate da'loro Ambasciatori, o Ministri Ple-
+                    <lb n="24" break="no"/>nipotenziari. Possiamo dire che <persName><forename>Vittorio</forename> <surname>Emanuele</surname></persName> è sceso 
+                    <lb n="25"/>nella tomba col compianto dei popoli e dei Re.
+                </ab>
+                <ab xml:id="P3_La_settimana">
+                    <lb n="26"/>— In tutte le città d'<placeName type="nation">Italia</placeName> proseguono con mirabile 
+                    <lb n="27"/>accordo le manifestazioni di dolore per tanta sventura, e gli
+                    <lb n="28"/>atti di omaggio al <rs type="person">nuovo Re.</rs> Dappertutto si preparano o
+                    <lb n="29"/> si fanno solenni funerali; dappertutto si aprono sottoscri-
+                    <lb n="30" break="no"/>zioni per un monumento a <persName><forename>Vittorio</forename> <surname>Emanuele</surname></persName>; dappertutto
+                    <lb n="31"/>si fanno indirizzi di omaggio e di devozione ad <persName><forename>Umberto</forename></persName>.
+                    <lb n="32"/>È un'<term ref="#Verbum">armonia di sentimenti</term> rara nella storia, è una <term ref="#Verbum">con-
+                    <lb n="33" break="no"/>cordia di pensieri</term> che non è rotta da nessuna voce discor-
+                    <lb n="34" break="no"/>dante. Poiché i discordanti si sentono pochi, e tacciono.
+                </ab>
+                <pb n="2"/>
+                <cb/>
+                <ab xml:id="P4_La_settimana">
+                    <lb n="35"/>Ieri (<date when="1878-01-17">17</date>) è stato aperto il <orgName type="phrase">Parlamento Inglese</orgName> dalla 
+                    <lb n="36"/><rs type="person">Regina</rs> in persona. Ecco i passi principali del discorso della 
+                    <lb n="37"/><orgName>Corona: </orgName><quote>«Nutro grande fiducia che le trattative possano
+                    <lb n="38"/>finalmente produrre una soluzione pacifica. Non risparmierò 
+                    <lb n="39"/>alcuno sforzo per ottenere questo risultato. Finora nes-
+                    <lb n="40" break="no"/>suno dei belligeranti ha violato le condizioni da me poste 
+                    <lb n="41"/>alla neutralità dell' <placeName type="nation">Inghilterra</placeName>, e voglio credere che le due 
+                    <lb n="42"/>parti vorranno seguitare a rispettarle. Finché quelle con-
+                    <lb n="43" break="no"/>dizioni non saranno violate, la mia neutralità continuerà,
+                    <lb n="44"/>ma non posso dissimularvi che, se le ostilità si prolungas-
+                    <lb n="45" break="no"/>sero, qualche imprevista circostanza potrebbe impormi il
+                    <lb n="46"/>dovere di adottare alcune misure di precauzioni. Tali mi-
+                    <lb n="47" break="no"/>sure non potrebbero prendersi senza prima prepararcisi.
+                    <lb n="48"/>Ho dunque fiducia nella liberalità del <orgName>Parlamento</orgName>, e conto 
+                    <lb n="49"/>che mi fornirà i mezzi necessari per ottenere un tal risul-
+                    <lb n="50" break="no"/>tato. I documenti relativi a questo affare vi saranno comu-
+                    <lb n="51" break="no"/>nicati senza ritardo.»
+                    </quote>
+                </ab>
+                <ab xml:id="P5_La_settimana">
+                    <lb n="52"/>— Le notizie della guerra di <orgName>Oriente</orgName> si riducono alle
+                    <lb n="53"/> seguenti. La città fortificata di <settlement>Nissa</settlement> ha capitolato la mat-
+                    <lb n="54" break="no"/>tina dell'<date when="1878-01-11">11</date> corrente, ed è stata occupata dai <rs type="ethnic-group">Serbi</rs>. Nello 
+                    <lb n="55"/>stesso giorno anche la fortezza di <settlement>Antivari</settlement>, da lungo tempo
+                    <lb n="56"/>assediata dai <rs type="ethnic-group">Montenegrini</rs>, si è arresa al <addName type="epithet">Principe</addName> <persName><forename>Nikita</forename></persName>.
+                    <lb n="57"/>Dal <orgName type="phrase">quartier generale russo</orgName> nulla di nuovo. I <orgName type="phrase">corpi Turchi</orgName>
+                    <lb n="58"/>che difendevano la linea dei <geogName>Balcani</geogName>, dopo che questa è stata
+                    <lb n="59"/>rotta a <settlement>Schipka</settlement>, si ritirano da ogni parte per concentrarsi
+                    <lb n="60"/>nella <geogName><geogFeat>pianura</geogFeat> di <settlement>Adrianopoli</settlement></geogName>. — In <placeName>Asia</placeName> le condizioni dei 
+                    <lb n="61"/>belligeranti non sembrano cambiate. — La sera del <date when="1878-01-14">14</date> son 
+                    <lb n="62"/>partiti da <settlement>Costantinopoli</settlement> per <settlement>Kasanlik</settlement> i pascià <persName><surname>Server</surname></persName> e
+                    <lb n="63"/><persName><surname>Mamik</surname></persName>. Sono i plenipotenziari <rs type="ethnic-group">Turchi</rs> che vanno al <orgName type="phrase">quar-
+                    <lb n="64" break="no"/>tier generale russo</orgName> per trattare dell’armistizio.
+                </ab>
+            </div>
+            <div type="articolo" n="2" xml:id="secondo_articolo" source="#articolo_2">
+                <head xml:id="titolo_Il_parlamento">IL PARLAMENTO.</head>
+                <docDate xml:id="data_Il_parlamento" when = "1878-01-18"> 18 Gennaio. </docDate>
+                <pb n="3" />
+                <cb/>
+                <ab xml:id="P1_Il_parlamento1">
+                    <lb n="65"/>Il <orgName>Parlamento</orgName> era convocato per il giorno <date when="1878-01-16">16</date>; - l'og-
+                    <lb n="66" break="no"/>getto della convocazione era l'annunzio ufficiale della morte 
+                    <lb n="67"/>del <addName type="epithet">Re</addName> <persName><forename>Vittorio</forename> <surname>Emanuele</surname></persName>. Grande era l'aspettativa del 
+                    <lb n="68"/>paese su questa seduta; poich’esso si attendeva che il <orgName>Par-
+                    <lb n="69" break="no"/>lamento</orgName> si sarebbe fatto interprete eloquente del cordoglio
+                    <lb n="70"/>universale. Ma il disinganno è stato pari all' aspettativa.
+                    <lb n="71"/>Alla <orgName>Camera</orgName>, il <persName><surname>De Sanctis</surname></persName> che presiedeva, invece di prov-
+                    <lb n="72" break="no"/>vedere subito alla commemorazione del defunto <addName type="epithet">Re</addName>, si è perso
+                    <lb n="73"/>in comunicazioni che erano fuor di luogo ;  il <persName><surname>Depretis</surname></persName> ha 
+                    <lb n="74"/>cominciato il discorso annunziando la costituzione del nuovo 
+                    <lb n="75"/><orgName type="phrase">Ministero del Tesoro</orgName>, e quindi è venuto a parlare del <addName type="epithet">Re</addName>
+                    <lb n="76"/>defunto con parole nelle quali nessuno ha trovato l'eco dei
+                    <lb n="77"/>sentimenti che addolorano questi giorni tutto il paese ; — il 
+                    <lb n="78"/><persName><surname>De Sanctis</surname></persName> stesso, parlando finalmente a nome della <orgName>Ca-
+                    <lb n="79" break="no"/>mera</orgName>, ha fatto un discorso non molto felice.  Il peggio si 
+                    <cb/>
+                </ab>
+                <ab xml:id="P1_Il_parlamento2">
+                    <lb n="80"/>è che la <orgName>Camera</orgName>, in mezzo al <term ref="#Tema">disinganno universale</term>, si è
+                    <lb n="81"/>dimenticata di fare degna risposta al messaggio con il quale 
+                    <lb n="82"/>la <orgName type="phrase">Camera Ungherese</orgName> partecipava all'<placeName subtype="homeland">Italia</placeName> le sue condo-
+                    <lb n="83" break="no"/>glianze per la morte di <persName><forename>Vittorio</forename> <surname>Emanuele</surname></persName>. I <persName>Deputati</persName> ri-
+                    <lb n="84" break="no"/>masti nell' aula hanno alla meglio rimediato a questo in-
+                    <lb n="85" break="no"/>conveniente firmando il seguente indirizzo :
+                    <quote>
+                        <lb n="86"/>« I sottoscritti, <persName>Deputati</persName> alla <orgName type ="phrase">Camera del Regno d'Italia</orgName>, 
+                        <lb n="87"/>»ringraziano commossi la <orgName>Camera Ungherese</orgName> della nobile 
+                        <lb n="88"/>»dimostrazione colla quale Essa volle fraternamente asso- 
+                        <lb n="89" break="no"/>»ciarsi al lutto d'<placeName subtype="homeland">Italia</placeName>, ed onorare la sacra e gloriosa me- 
+                        <lb n="90" break="no"/>»moria di <addName type="epithet">Re</addName> <persName><forename>Vittorio</forename> <surname>Emanuele</surname></persName> <num value="2">II</num>. »
+                    </quote>
+                </ab>
+                <ab xml:id="P2_Il_parlamento">
+                    <lb n="91"/>Insomma dobbiamo con dolore constatare che la seduta 
+                    <lb n="92"/>della <orgName>Camera dei Deputati</orgName>, è riuscita una vera piccinerìa
+                    <lb n="93"/>invece che una solenne manifestazione del <term ref="#Tema">sentimento na-
+                    <lb n="94" break="no"/>zionale</term>.
+                </ab>
+                <ab xml:id="P3_Il_parlamento">
+                    <lb n="95"/>Più decorosa è stata la seduta del <orgName>Senato</orgName>. Qui almeno
+                    <lb n="96"/>il <addName type="epithet">presidente</addName> <persName><surname>Tecchio</surname></persName> ha saputo trovare parole commoventi
+                    <lb n="97"/>che furono l'espressione del profondo cordoglio del <orgName>Par-
+                    <lb n="98" break="no"/>lamento</orgName>.
+                </ab>
+                <ab xml:id="P4_Il_parlamento">
+                    <lb n="99"/>Tanto la <orgName>Camera</orgName> quanto il <orgName>Senato</orgName>, in segno di lutto, hanno
+                    <lb n="100"/>sospeso le sedute fino al <date when="1878-02-01">1° febbraio</date>.
+                </ab>
+                <ab xml:id="P5_il_parlamento">
+                    <lb n="101"/>—Il <date when="1878-01-19">19</date> corrente ha luogo il giuramento del nuovo <rs type="person">Re</rs>
+                    <lb n="102"/>davanti alle due <orgName>Camere</orgName> riunite.
+                </ab>
+            </div>
+            <div type="notizie" xml:id="prime_notizie" n="1" source="#notizie_1"> <!--vol1.fasc3-->
+                <head xml:id="titolo_Notizie">NOTIZIE.</head>
+                <pb n="4" />
+                <cb/>
+                <ab xml:id="P1_Notizie">
+                    <list type="simple">
+                        <item>
+                            <lb n="103"/>— Usciranno fra giorni a <settlement>Milano</settlement>: <title level="m"><hi rend="italic">Le lettere inedite </hi>di <persName><forename>Massimo</forename> <surname>d'Aze-
+                            <lb n="104" break="no"/>glio</surname></persName> a Matteo Ricci</title> o un nuovo romanzo di <persName><forename>Raffaello</forename> <surname>Giovagnoli</surname></persName> intito-
+                            <lb n="105" break="no"/>lato <title level="m">Natalina</title>.
+                        </item>
+                        <item>
+                            <lb n="106"/>— Nell'ultima seduta dell'anno scorso, <orgName>l'<hi rend="italic">Académie des Inscriptions
+                            <lb n="107"/>et Belles-lettres</hi></orgName> ha eletto membro corrispondente il professore <persName><forename>G. I.</forename> <surname>Ascoli</surname></persName>.
+                        </item>
+                        <item>
+                            <lb n="108"/>— E uscito il primo volume di una traduzione tedesca delle <title level="m"><hi rend="italic">Confes-
+                            <lb n="109" break="no"/>sioni di un ottuagenario</hi></title> di <persName><forename>Ippolito</forename> <surname>Nievo</surname></persName>. (<foreign xml:lang="de"><hi rend="italic">Erinnerungen eines Achtzig-
+                            <lb n="110" break="no"/>jührigen. Ins Deutsche übertragen von I. Kurz</hi></foreign>). Questo volume è il terzo della 
+                            <lb n="111"/>collezione degli « <title level="s">Italienische Novellisten des XIX Jahrhunderts</title> »
+                            <lb n="112"/>che si va pubblicando a <settlement>Lipsia</settlement> sotto la direzione dell'<persName><surname>Heyse</surname></persName>.
+                        </item>
+                    </list>
+                </ab>
+                <ab xml:id="P2_Notizie">
+                    <list type="simple">
+                        <item>
+                            <lb n="113"/>— I <orgName type="phrase">giornali tedeschi</orgName> si occupano di un nuovo libro sopra il <persName><surname>Leo-
+                            <lb n="114" break="no"/>pardi</surname></persName> intitolato: <hi rend="italic"><title level="m">Essai sur les idées philosophiques et l'inspiration poétique
+                            <lb n="115"/>de G. Leopardi</title>,<foreign xml:lang="fr"> suivi d'œuvres inédites et traductions par <persName><forename>F. A.</forename> <surname>Allard</surname></persName></foreign></hi>
+                            <lb n="116"/>(<settlement>Paris</settlement>,<orgName>Thorin</orgName>,<date when="1877">1877</date>).  Vedi una Bibliografia estesa nella<hi rend="italic"> <title level="s">Beilage zur All-
+                            <lb n="117" break="no"/>gemeinen Zeitung</title></hi> <date when="1878-01-01">1° gennaio 1878</date>.
+                        </item>
+                        <item>
+                            <lb n="118"/>—Nei <title level="j"><hi rend="italic">Preussischc Jahrbücher</hi></title>, fascicolo del <date when="1878-12">dicembre 1877</date>, vi è una
+                            <lb n="119"/>critica dell'<persName><surname>Hartwig</surname></persName> sul libro del <persName><surname>Villari</surname></persName>, col titolo <title level="m"><hi rend="italic">Eine Biographie 
+                            <lb n="120"/>Machiavelli's</hi></title>.
+                        </item>
+                    </list>
+                </ab>
+                <ab xml:id="P3_Notizie_1">
+                    <list type="simple">
+                        <item>
+                            <lb n="121"/>— <orgName type="phrase">La Società Lombarda di Storia Patria</orgName> ha riaperto un concorso
+                            <lb n="122"/>per una monografia intorno a <persName><forename>Francesco</forename> <genName><num value="1">I</num></genName> <surname>Sforza</surname></persName>, avendo giudicati non
+                            <lb n="123"/>meritevoli di premio gli scritti presentati al primo concorso. Il ter-
+                            <lb n="124" break="no"/>mine utile per concorrere è sino al <date when="1878-12-31">31 <choice><abbr>dic.</abbr><expan>dicembre</expan></choice> 1878</date>. Il premio, lire <num value="3000">3 mila</num>,
+                            <cb/>
+                        </item>
+                    </list>
+                </ab>
+                <ab xml:id="P3_Notizie_2">
+                    <list type="simple">
+                        <item>
+                            <lb n="125"/>più una copia della <title level="s"><hi rend="italic">Storia degl'Italiani</hi></title> di <persName><forename>Cesare</forename> <surname>Cantù</surname></persName> <hi rend="emph">(!)</hi> in <num value="16">16</num> <choice><abbr>vol.</abbr><expan>volumi</expan></choice> <title level="m">Le
+                            <lb n="126"/>Memorie</title> dovranno essere scritte in italiano.
+                        </item>
+
+                        <item>
+                            <lb n="127"/>— <orgName>La Congregazione dell'Indice</orgName>, presieduta dal <addName type="epithet">Cardinal</addName> <persName><surname>De Luca</surname></persName>,
+                            <lb n="128"/>con decreto del <date when="1878-12-17">17 dicembre</date> condannò le opero del <addName type="epithet">professor</addName> <persName><surname>Ellero</surname></persName>
+                            <lb n="129"/>dell' <orgName>Università di Bologna</orgName>, quello di <persName><forename></forename>Edoardo<surname> </surname>Zeller</persName>, <addName type="epithet">professore</addName> a <settlement>Ber-
+                            <lb n="130" break="no"/>lino</settlement>, il libro <title level="m"><hi rend="italic">Les Evangiles</hi></title> di <persName><forename>Ernesto</forename> <surname>Renan</surname></persName> pubblicato nello scorso
+                            <lb n="131"/>anno, e alcuni scritti del <persName><surname>Reinkens</surname></persName> e del <persName><surname>Friedrich</surname></persName>. Il decreto ordina
+                            <lb n="132"/>che <foreign xml:lang="lat"><hi rend="italic">nemo audeat legere</hi></foreign> quelle opere.
+                        </item>
+                    </list>
+                </ab>
+                <ab xml:id="P4_Notizie">
+                    <list type="simple">
+                        <item>
+                            <lb n="133"/>— La questione dell'emigrazione chinese in <country>California</country> minaccia di
+                            <lb n="134"/>prendere proporzioni allarmanti e di turbare la pubblica tranquillità,
+                            <lb n="135"/>specialmente in <settlement type="city">San Francisco</settlement>, ove essa ha dato luogo anco di recente 
+                            <lb n="136"/>a qualche agitazione popolare, che le autorità non son sempre sicure
+                            <lb n="137"/>di poter facilmente reprimere. Il <orgName type="phrase">Congresso degli Stati Uniti</orgName> dovrà 
+                            <lb n="138"/>presto occuparsene. Si rimprovera ai Chinesi di spremere dal paese una
+                            <lb n="139"/>parte importante delle sue ricchezze, di non entrare nella corrente della
+                            <lb n="140"/>civiltà americana e, soprattutto, di lavorare in tali condizioni da ren-
+                            <lb n="141" break="no"/>dere impossibile a lato ad essi ogni concorrenza al lavoro americano.
+                            <lb n="142"/>Il <orgName>Congresso</orgName> potrà certo prendere delle misure ingiuste e vessatorie 
+                            <lb n="143"/>contro i poveri <hi rend="italic">coolies</hi>, ma ciò non impedirà che, col facilitarsi e l’esten-
+                            <lb n="144" break="no"/>dersi delle comunicazioni, la loro instancabile assiduità al lavoro, la
+                            <lb n="145"/>loro parsimonia e la loro intelligenza non tendano ad allargare rapida-
+                            <lb n="146" break="no"/>mente il campo della loro attività ed a far riversare nel Nuovo e fra
+                            <lb n="147"/>poco anco nel Vecchio Mondo l'esuberanza della loro mano d'opera. 
+                        </item>
+                        <item>
+                            <lb n="148"/>— Il <date when="1878-01-28">28</date> corrente avrà luogo a <settlement type="city">Lione</settlement> un Congresso operaio.
+                        </item>
+                        <item>
+                            <lb n="149"/>— Il consumo della carne di Cavallo a <settlement type="city">Parigi</settlement>, incominciato nel <date when="1860">1860</date>
+                            <lb n="150"/>e cresciuto durante la guerra del <date when="1870">1870</date>, è andato rapidamente aumen-
+                            <lb n="151" break="no"/>tando fino a tutto il <date when="1877">1877</date>, in cui raggiunse in media la cifra di <num value="1000">1000</num> ani-
+                            <lb n="152" break="no"/>mali il mese.
+                        </item>
+                    </list>
+                </ab>
+                <ab xml:id="P5_Notizie">
+                    <list type="simple">
+                        <item>
+                            <lb n="153"/>— Un' altra deduzione scientifica si è verificata : i gas permanenti,
+                            <lb n="154"/>l'ossigeno, l'idrogeno e l'azoto sono stati liquefatti. I signori <persName><surname>Cailletet</surname></persName> o
+                            <lb n="155"/><persName><surname>Pictet</surname></persName> sono giunti simultaneamente, ma indipendentemente l'uno dal-
+                            <lb n="156" break="no"/>l'altro, ad ottenere l'ossigeno in forma di vaporo il primo, in forma 
+                            <lb n="157"/>di liquido il secondo. Ambedue comunicavano le loro ricerche all'<hi rend="italic"><orgName>Aca-
+                            <lb n="158" break="no"/>démie des sciences</orgName></hi> nello scorso <date when="1877-12">Dicembre</date>. Il <addName type="epithet">signor</addName> <persName><surname>Cailletet</surname></persName> compresse
+                            <lb n="159"/>dell' ossigeno a <num value="300">300</num> atmosfere, alla temperatura di <num value="29">29</num>° C. sotto zero;
+                            <lb n="160"/>osservò al momento in cui il gas veniva repentinamente messo in libertà,
+                            <lb n="161"/>il che no portava la temperatura a — <num value="200">200°</num>, la formazione di una densa
+                            <lb n="162"/>nuvola. Il signor <persName><surname>Pictet</surname></persName> dal canto suo, avendo messo il tubo ripieno
+                            <lb n="163"/>di ossigeno sotto una pressione di <num value="500">500</num> atmosfere, alla temperatura
+                            <lb n="164"/>di <num value="140">140</num>° C. sotto zero, aprì il tubo quando la pressione fu discesa a <num value="320">320</num>
+                            <lb n="165"/>atmosfere: lossigeno liquefatto schizzò fuori con tanta violenza, che
+                            <lb n="166"/>non potè essere raccolto. Pochi giorni dopo, il <date when="1877-12-31">31 Dicembre 1877</date>, il si-
+                            <lb n="167" break="no"/>gnor <persName><surname>Cailletet</surname></persName> eseguiva a <settlement>Parigi</settlement> nel laboratorio dell'<placeName><hi rend="italic">Ecole Normale</hi></placeName>, in
+                            <lb n="168"/>presenza di vari distinti chimici e fisici, esperimenti analoghi sull'azoto
+                            <lb n="169"/>e sull'idrogeno ; il primo divenne liquido sotto una pressione di <num value="200">200</num> atmo-
+                            <lb n="170" break="no"/>sfere il secondo di <num value="280">280</num>. Lo sperimento riuscì egualmente sopra l'<hi rend="italic">aria
+                            <lb n="171"/>atmosferica</hi> stessa, e si vide schizzare dal tubo refrigerato e compresso
+                            <lb n="172"/>uno zampillo di <hi rend="italic">aria</hi> liquida. Così è data la prova di fatto che la coe-
+                            <lb n="173" break="no"/>sione molecolare è una proprietà universale di tutti i corpi senza una
+                            <lb n="174"/>sola eccezione.
+                        </item>
+                        <item>
+                            <lb n="175"/>— Il di <date when="1878-01-07">7 gennaio</date> si riunì in <placeName>Campidoglio</placeName> la classe delle scienze
+                            <lb n="176"/>fisiche, matematiche e naturali della <orgName><choice><abbr>R.</abbr><expan>Reale</expan></choice> Accademia dei Liucei</orgName>. Dopo 
+                            <lb n="177"/>le solito formalità, dal <addName type="epithet">professor </addName><persName><surname>Blaserna</surname></persName> venne data comunicazione
+                            <lb n="178"/>di varie opere mandate in dono all'<orgName>Accademia</orgName>, e delle Memorie spedite
+                            <lb n="179"/>per concorrere al premio di <choice><abbr>L.</abbr><expan>Lire</expan></choice> <num value="3000">3000</num>, istituito nel <date when="1877-01">gennaio del 1877</date>, e a
+                            <lb n="180"/>quello del legato <persName><surname>Carpi</surname></persName>. Per il primo di questi due concorsi sono giunti
+                            <lb n="181"/><num value="17">17</num> lavori, per il secondo <num value="5">5</num>. Furono quindi presentate le relazioni sui
+                            <lb n="182"/>lavori mandati all'<orgName>Accademia</orgName> dai <addName type="epithet">signori</addName> <persName><surname>Campani</surname></persName>, <persName><surname>Rossetti</surname></persName>, <persName><surname>Briosi</surname></persName>, 
+                            <lb n="183"/><persName><forename>V.</forename> <surname>Cerruti</surname></persName>, <persName><surname>Favaro</surname></persName>, <persName><surname>Felici</surname></persName>, <persName><surname>Berté</surname></persName>, <persName><surname>Capellini</surname></persName> e <persName><surname>Gantero</surname></persName>. Da ultimo il <addName type="epithet">pro- 
+                            <lb n="184" break="no"/>fessor</addName> <persName><surname>Volpicelli</surname></persName> annunciò che il <addName type="epithet">professor</addName> <persName><surname>Tyndall</surname></persName> ha fatto adesione
+                            <lb n="185"/>alla teorica del <persName><surname>Melloni</surname></persName> sulla induzione elettrostatica e che dall'<orgName type="phrase"> Acca-
+                            <lb n="186" break="no"/>demia delle scienze di Parigi</orgName> si è incaricato il <addName type="epithet">Conte</addName> <persName><surname>Du Moncel</surname></persName> di far
+                            <lb n="187"/>parte della <orgName>Commissione</orgName> che dovrà esaminare uno studio dello stesso 
+                            <lb n="188"/><addName type="epithet">professor</addName> <persName><surname>Volpicelli</surname></persName> sulla medesima teorica dell'induzione elettrostatica.
+                        </item>
+                    </list>
+                </ab>
+            </div>
+            <div type="notizie" n="2" xml:id="seconde_notizie" source="#notizie_2"> <!--vol1.fasc4-->
+                <head xml:id="titolo_Notizie2">NOTIZIE.</head>
+                <pb n="5" />
+                <cb/>
+                <ab xml:id="P1_Notizie2">
+                    <list type="simple">
+                        <item>
+                            <lb n="189"/>Riceviamo dal <addName type="epithet">signor</addName> <persName><forename>Filippo</forename> <surname>Saraceno</surname></persName>, autore del lavoro <title type="m"><hi rend="italic">Giullari, Me-
+                            <lb n="190" break="no"/>nestrelli</hi></title> <choice><abbr>ec.</abbr><expan>eccetera</expan></choice> di cui è stato tenuto parola nella bibliografìa del nostro
+                            <lb n="191"/><num value="2">2</num>° numero, una cortese lettera, in cui rispondendo ad una nostra, ci
+                            <lb n="192"/>comunica gentilmente il seguente dato intorno ai Goliardi. Egli ha
+                            <lb n="193"/>tratto la notizia di cui parla nel suo lavoro, dall'Archivio della cessata
+                            <lb n="194"/><orgName type="phrase">Camera dei conti</orgName> di <settlement>Torino</settlement>. Ivi, nel <title type="j"><hi rend="italic">Journal de la dépense du Prince Phi-
+                            <lb n="195" break="no"/>lippe de Savoye faite par le clerc Guichard</hi></title>, <date when="1294">1294</date> et <date when="1295">1295</date>, (Inventario
+                            <lb n="196"/>parziale,<choice><abbr>vol.</abbr><expan>volume</expan></choice> <num value="4">4</num>, <choice><abbr>f.</abbr><expan>fascicolo</expan></choice> <num value="13">13</num>) al secondo foglio del rotolo <choice><abbr>n.</abbr><expan>numero</expan></choice> <num value="1">1</num> della Categoria
+                            <lb n="197"/><hi rend="italic">Journalliers et rouleaux</hi> ec., si leggono in principio queste parole : <quote>«Duo-
+                            <lb n="198" break="no"/>bus Goliardis apud pignarolium de dono Dai die carniprivii XII dd. »</quote>
+                            <lb n="199"/>Egli aggiunge a proposito delle critiche mossegli dalla <title type ="j"><hi rend="italic">Rassegna</hi></title>, non
+                            <lb n="200"/>aver citato le fonti nel suo scritto, perchè la raccolta in cui venne stam-
+                            <lb n="201" break="no"/>pato è indirizzata, per l'intenzione dello stesso suo fondatore <choice><abbr>Comm.</abbr><expan>Commendatore</expan></choice>
+                            <lb n="202"/><persName><forename>Nicomede</forename> <surname>Bianchi</surname></persName>, non ai dotti e agli specialisti, ma al pubblico di col-
+                            <lb n="203" break="no"/>tura media, o destinata ad allettare i lettori e ad istigarli, per così
+                            <lb n="204"/>dire, di soppiatto, a studiare le quistioni storiche e ad occuparsene.
+                            <lb n="205"/>Per altro, egli ci assicura che non v'ha asserzione nel suo scritto che
+                            <lb n="206"/>non sia non solo appoggiata, ma anche calcata sopra documenti auten-
+                            <lb n="207" break="no"/>tici. Il <addName type="epithet">signor</addName> <persName><surname>Saraceno</surname></persName>, nel fare il suo lavoro, ha trascritto i brani di 
+                            <lb n="208"/>documenti all'appoggio <foreign xml:lang="lat"><hi rend="italic">ad literam</hi></foreign> e con tutto le indicazioni occorrenti 
+                            <lb n="209"/>perchè vengano riscontrati all'uopo e verificati sull'originale. Egli spera
+                            <lb n="210"/>poterli pubblicare più tardi insieme con parecchi altri da lui raccolti.
+                        </item>
+                        <item>
+                            <lb n="211"/>—Il <title level="j"><hi rend="italic">Magazin für die Literatur des Auslandes</hi></title>, nel suo numero del
+                            <lb n="212"/><date when="1878-01-26">26 gennaio 1878</date>, pubblica la prima parte d'un articolo sugli <title level="m"><hi rend="italic">Scritti
+                            <lb n="213"/>editi e inediti di Gino Capponi</hi></title>, raccolti per cura di <persName><forename>M. </forename><surname>Tabarrini.</surname></persName>  
+                        </item>
+                        <item>
+                            <lb n="214"/>— Dall'antiquario <persName><surname>Lepke</surname></persName> a <settlement>Berlino</settlement> sarà messa all'asta il <date when="1878-02-2626"> 26 Feb-
+                            <lb n="215" break="no"/>braio</date> prossimo la più importante raccolta di autografi che esista in
+                            <lb n="216"/><placeName type="nation">Germania</placeName>. Essa era stata riunita dal defunto <addName type="epithet">Console</addName> <persName><surname>Wagener</surname></persName> che
+                            <lb n="217"/>lasciò la sua collezione di quadri alla <orgName type="phrase">Galleria Nazionale di Berlino</orgName>. La
+                            <lb n="218"/>raccolta d'autografi ne contiene circa <num value="1300">1300</num>, alcuni pure del quattordi-
+                            <lb n="219"/>cesimo secolo e quasi tutti i grandi nomi delle scienze, lettere ed arti
+                            <lb n="220"/>vi sono rappresentati. Fra i riformatori si notano <persName><surname>Lutero</surname></persName>, <persName><surname>Melantone</surname></persName>,
+                            <lb n="221"/><persName><surname>Reuchlin</surname></persName>, <persName><surname>Erasmo</surname></persName>; fra i dotti <persName><surname>Kepler</surname></persName>, <persName><surname>Newton</surname></persName>, <persName><surname>Laplace</surname></persName>, <persName><surname>Legendre</surname></persName>, <persName><surname>Linneo</surname></persName>
+                            <lb n="222"/><persName><surname>Humboldt</surname></persName>; fra gli artisti <persName><surname>Rubens</surname></persName>, <persName><surname>Canova</surname></persName>, <persName><surname>Caracci</surname></persName>, <persName><surname>Delaroche</surname></persName>, <persName><surname>Pussin</surname></persName>;
+                            <lb n="223"/>fra i compositori, <persName><surname>Mozart</surname></persName>, <persName><surname>Beethoven</surname></persName> ; fra i poeti <persName><surname>Schiller</surname></persName>, <persName><surname>Goethe</surname></persName>. Anche
+                            <lb n="224"/>le case regnanti d'<placeName>Europa</placeName> sono degnamente rappresentate. Vi sono
+                            <lb n="225"/>autografi di <persName><forename>Carlo </forename><genName><num value="5">V</num></genName></persName>, di <persName><forename>Filippo</forename> <genName><num value="2">II</num></genName></persName>, di <persName><forename>Maria </forename><surname>Stuarda</surname></persName>, di <persName><forename>Caterina</forename> <genName> dei
+                            <lb n="226"/>Medici</genName></persName> o di molti altri ancora.
+                        </item>
+                    </list>
+                </ab>
+                <ab xml:id="P2_Notizie2">
+                    <list type="simple">
+                        <item>
+                            <lb n="227"/>— I <orgName>Comizi Agrari</orgName>  di <settlement>Siena</settlement> e di <settlement>Brescia</settlement> hanno protestato contro
+                            <lb n="228"/>la soppressione del <orgName type="phrase">Ministero di Agricoltura, Industria e Commercio</orgName>. 
+                            <lb n="229"/>Si dice che molti altri <orgName>Comizi</orgName> seguiranno il loro esempio.
+                        </item>
+                    </list>
+                </ab>
+                <ab xml:id="P3_Notizie2">
+                    <list>
+                        <item>
+                            <lb n="230"/>— Un patriotta slavo ci fa l'osservazione che il <addName type="epithet">Principe</addName> di <placeName type="nation">Monte-
+                            <lb n="231" break="no"/>negro</placeName> si chiama <persName><forename>Niccolò</forename></persName> e non <persName><forename>Nikita</forename></persName> ; quest'ultimo nome sarebbe, se-
+                            <lb n="232" break="no" />condo lui, un soprannome derisorio datogli dai Tedeschi.
+                        </item>
+                    </list>
+                </ab>
+            </div>
+            <div type="bibliografia" xml:id="bibl_lett" source="#bibl"> <!--vol1.fasc22-->
+                <pb n="6"/>
+                <cb/>
+                <ab xml:id="bibl_Letteratura_e_storia">
+                    <lb n="233"/><bibl><author>Ernesto Masi.</author> <title type="m"><hi rend="italic"> La vita i tempi gli amici di Francesco Al-
+                    <lb n="234"/>bergati, commediografo del secolo XVIII</hi></title>.— <pubPlace>Bologna</pubPlace>, <publisher>Za-
+                    <lb n="235" break="no"/>nichelli</publisher>,<date when="1878"> 1878.</date></bibl>
+                </ab>
+                <ab xml:id="P1_Letteratura_e_storia">
+                    <lb n="236"/>In <placeName type="nation">Italia</placeName> è ancora cosa rara che si stampi un libro il
+                    <lb n="237"/>quale si possa leggere da cima a fondo senza troppe in-
+                    <lb n="238" break="no"/>terruzioni, e quando ne vien fuori uno, è dovere della
+                    <lb n="239"/>critica il segnalarlo subito all' attenzione del pubblico. Tale
+                    <lb n="240"/>è il volume del <persName><surname>Masi</surname></persName> Le difficoltà a fare un buon libro su
+                    <lb n="241"/><persName><forename>Francesco</forename> <surname>Albergati</surname></persName>, il <addName type="epithet">commediografo</addName> bolognese del se-
+                    <lb n="242"/>colo <num value="18">XVIII</num>, erano maggiori di quel che forse non si pensa.
+                    <lb n="243"/>L'<persName><surname>Albergati</surname></persName> non fu un uomo di genio, e sebbene avesse
+                    <lb n="244"/>gran nome al suo tempo, oggi nessuno legge più i suoi do-
+                    <lb n="245" break="no"/>dici volumi fra traduzioni e commedie originali, e di lui
+                    <lb n="246"/>non parlano più che le storie letterarie. Il <persName><surname>Masi</surname></persName> non è ca-
+                    <lb n="247" break="no"/>duto in quell'errore comune a tanti scrittori di biografie,
+                    <lb n="248"/>che nel personaggio di cui scrivono fanno sempre un eroe.
+                    <lb n="249"/>Egli ci ritrae l'<persName><surname>Albergati</surname></persName> come privato e come scrittore
+                    <lb n="250"/>colle sue <term ref="#Verbum">virtù</term> e coi suoi difetti, senza la pretesa di farlo
+                    <lb n="251"/>passare per un grand'uomo.
+                </ab>
+                <ab xml:id="P2_Letteratura_e_storia">
+                    <lb n="252"/>La vita un po' avventurosa del ricco <addName type="epithet">patrizio</addName> bolognese
+                    <lb n="253"/>e le sue relazioni con gli uomini più famosi del suo tempo
+                    <lb n="254"/>porgono al nostro A. occasione di farci <term ref="#Tema">una pittura in
+                    <lb n="255"/>molti luoghi assai viva dell' Italia nel secolo <num value="18">XVIII</num></term>. In <term ref="#Verbum">vero</term>
+                    <lb n="256"/>il teatro dell' azione si ristringe più specialmente a <settlement> Bolo-
+                    <lb n="257"/>gna</settlement> e a <settlement>Venezia</settlement>, dove l'<persName><surname>Albergati</surname></persName> era solito di soggiornare
+                    <lb n="258"/>la più parte dell' anno, ma il vivere di queste due città
+                    <lb n="259"/>non era, quanto ai costumi, gran che disforme da quello
+                    <lb n="260"/>delle altre, e i molti particolari ed aneddoti che l'A. in-
+                    <lb n="261" break="no"/>treccia con arte finissima alla vita del suo protagonista, 
+                    <lb n="262"/>rischiarano di viva luce tutto <term ref="#Tema">quel secolo così vario nelle 
+                    <lb n="263"/>sue spensieratezze e mollezze, nelle sue aspirazioni e nei 
+                    <lb n="264"/>suoi tentativi di riforme</term>.
+                </ab>
+                <ab xml:id="P3_Letteratura_e_storia1">
+                    <lb n="265"/>Del resto, <persName><forename>Francesco</forename> <surname>Albergati</surname></persName> ha nella storia della
+                    <lb n="266"/>drammatica italiana un gran merito, quello di essersi
+                    <lb n="267"/>adoperato come il <persName><surname>Goldoni</surname></persName> e col <persName><surname>Goldoni</surname></persName> alla riforma
+                    <lb n="268"/>del Teatro. Inferiore di gran lunga al commediografo ve-
+                    <lb n="269" break="no"/>neziano, fu quegli però, nel suo secolo, che più gli si av-
+                    <lb n="270" break="no"/>vicinò, e che meglio di molti altri comprese la necessità di 
+                    <lb n="271"/>ritornar la commedia ad essere una <term ref="#Tema">sincera rappresenta-
+                    <lb n="272"/>zione della natura</term>. Anzi, dal lato della satira, <quote>« la commedia</quote>
+                    <cb/>
+                </ab>
+                <ab xml:id="P3_Letteratura_e_storia2">
+                    <lb n="273"/><quote>dell’Albergati,»</quote> a giudizio del <persName><surname>Masi</surname></persName>, <quote>« va più addentro e ta-
+                    <lb n="274" break="no"/>glia più nel vivo »</quote> (<choice><abbr>pag.</abbr><expan>pagina</expan></choice> <num value="345">345</num>). La qual cosa non costituisce
+                    <lb n="275"/>sempre nell'arte drammatica un pregio; anzi fu questa, 
+                    <lb n="276"/>come bene osserva l' A., una delle cause perchè le comme-
+                    <lb n="277" break="no"/>die dell' <persName><surname>Albergati</surname></persName> oggi non si leggono più nè più si rap-
+                    <lb n="278" break="no"/>presentano. <quote>«L'<persName><surname>Albergati</surname></persName> non temperava, non universaleg-
+                    <lb n="279"/>giava alcuno dei suoi tipi comici. Copiava coi colori più
+                    <lb n="280"/>vivi, che poteva, <term ref="#Tema">la classe sociale, che dalla rivoluzione so-
+                    <lb n="281" break="no"/>pravvenuta fu più profondamente modificata d' ogni altra, 
+                    <lb n="282"/>la classe, che anche in tempi tranquilli, indulge più d'ogni 
+                    <lb n="283"/>altra ai pregiudizi della moda, e cangia più facilmente
+                    <lb n="284"/>d' ogni altra pensieri, gusti, costumi, fogge, condizioni in-
+                    <lb n="285" break="no"/>trinseche ed apparenze esteriori.</term> Quindi è che la satira del-
+                    <lb n="286"/>l'<persName><surname>Albergati</surname></persName>, troppo abbarbicata al tempo suo, dovea di ne-
+                    <lb n="287" break="no"/>cessità morire con esso o rimanere tutto al più documento
+                    <lb n="288"/>di storia »</quote> (<choice><abbr>pag.</abbr><expan>pagina</expan></choice> <num value="347">347</num>).
+                </ab>
+                <ab xml:id="P4_Letteratura_e_storia">
+                    <lb n="289"/>Il <persName><surname>Cantù</surname></persName> dice nella <title type="m"><hi rend="italic">Storia della letteratura italiana</hi></title> (ca
+                    <lb n="290" break="no"/>pitolo <num value="16">XVI</num>, <choice><abbr>pag.</abbr><expan>pagina</expan></choice> <num value="493">493</num>) che l'<persName><surname>Albergati</surname></persName> fu <quote>«cattiv'uomo.»</quote>
+                    <lb n="291"/>Ma la lettura del libro del <persName><surname>Masi</surname></persName> c'induce a concludere
+                    <lb n="295"/>tutto l' opposto. Il <persName><surname>Masi</surname></persName> nota in più d'un luogo che l'<persName><surname>Al-
+                    <lb n="296" break="no"/>bergati</surname></persName> non fu uomo di profondo sentire; ebbe quella
+                    <lb n="297"/><term ref="#Tema">superficialità di sentimenti</term> che era propria di tutte le
+                    <lb n="298"/>classi del suo secolo, specialmente di quella, a cui esso 
+                    <lb n="299"/>appartenne. Non fu di certo uno stinco di santo, ma ba-
+                    <lb n="300" break="no"/>sterebbe il suo matrimonio colla <persName><forename>Cattina</forename> <surname>Boccabadati</surname></persName>, a
+                    <lb n="301"/>cui lo legava non solo <quote>«un vincolo di cuore, ma d'onore,»</quote> 
+                    <lb n="302"/>e la cura che aveva della educazione dei suoi figli a raffi-
+                    <lb n="303" break="no"/>gurarcelo sotto tutt' altro aspetto che quello di un uomo
+                    <lb n="304"/>cattivo.
+                </ab>
+                <ab xml:id="P5_Letteratura_e_storia">
+                    <lb n="305"/>Un punto veramente oscuro nella vita dell'<persName><surname>Albergati</surname></persName> è
+                    <lb n="306"/>a tragica fine della sua seconda moglie, la <persName><surname>Boccabadati</surname></persName>. Ma
+                    <lb n="307"/>ci pare che il <persName><surname>Masi</surname></persName> abbia luminosamente provato che esso
+                    <lb n="308"/>ne fu affatto innocente. E vero che l'essere uscito assoluto
+                    <lb n="309"/>dal processo che gli fu fatto, non è un argomento troppo
+                    <lb n="310"/>solido a provarne la innocenza per chi conosce i tempi e
+                    <lb n="311"/>la influenza che aveva allora la nobiltà; ma tutto il com-
+                    <lb n="312" break="no"/>plesso di quel luttuosissimo dramma e i precedenti dell'<persName><surname>Al-
+                    <lb n="313" break="no"/>bergati</surname></persName> e della sua moglie, e le inimicizie molte e potenti, 
+                    <lb n="314"/>invece delle aderenze, che l'accusato s'era procacciato colla
+                    <lb n="315"/>satira, che sulla scena aveva fatto più volte dei costumi 
+                    <lb n="316"/>della nobiltà, tutto concorre a persuaderci che la trista
+                    <lb n="317"/>fine della <persName><surname>Boccabadati</surname></persName> fu l'effetto di un suicidio e non di
+                    <lb n="318"/>un omicidio.
+                </ab>
+                <pb n="7"/>
+                <cb/>
+                </div>
+                <div type="bibliografia" xml:id="bibl_scienze" source="#bibl"> <!--vol1.fasc22-->
+                <ab xml:id="bibl_Scienze_naturali">
+                    <lb n="319"/><bibl><author>M. S. De Rossi</author>. <title type="m"><hi rend="italic">La meteorologia endogena e la organizzazione
+                    <lb n="320"/>degli osservatorii sismici in Italia</hi></title>. — <pubPlace>Roma</pubPlace>, <date when="1877">1877</date></bibl>.
+                </ab>
+                <ab xml:id="P1_Scienze_naturali1">
+                    <lb n="321"/>L'A. chiama col nome di <hi rend="italic">meteorologia endogena</hi> il nuovo
+                    <lb n="322"/>metodo e la nuova organizzazione di ricerche sui feno-
+                    <lb n="323" break="no"/>meni endogeni risultante dalla associazione ed ordinamento
+                    <lb n="324"/>degli studi di molti sotto una forma finora non tentata, 
+                    <lb n="325"/>almeno sopra vasta scala. Al fine di raccogliere il mag-
+                    <lb n="326" break="no"/>gior numero possibile di osservazioni, ossia di fatti in <placeName type="nation">Italia</placeName>,
+                    <cb/>
+                </ab>
+                <ab xml:id="P1_Scienze_naturali2">
+                    <lb n="327"/>il <persName><surname>De Rossi</surname></persName> procurò fin dal <date when="1873">1873</date> di organizzare una rete 
+                    <lb n="328"/>di corrispondenza, e nell' anno successivo fondò <title level="m"><hi rend="italic">il Bullettino
+                    <lb n="329"/>del Vulcanismo Italiano</hi></title> ben noto ai cultori di tale ordine
+                    <lb n="330"/>di studi. Attendendo egli pertanto alla redazione d'un
+                    <lb n="331"/>lavoro inteso ad additare le norme ed i mezzi sperimentali 
+                    <lb n="332"/>per organizzare le osservazioni e gli osservatorii speciali
+                    <lb n="333"/>in siffatta materia, mandò innanzi sotto il titolo surriferito
+                    <lb n="334"/>un sunto, o per meglio dire, un programma dell'opera,
+                    <lb n="335"/>della quale sta occupandosi.
+                </ab>
+                <ab xml:id="P2_Scienze_naturali">
+                    <lb n="336"/>Nella serie dei fenomeni sottoposti ad esame, alcuni co-
+                    <lb n="337" break="no"/>stituiscono il gruppo delle manifestazioni dette vulcaniche,
+                    <lb n="338"/>altri poi sono estranei a questo gruppo: ma tale separa-
+                    <lb n="339" break="no"/>zione è più convenzionale che reale; perchè in natura tutte
+                    <lb n="340"/>le forze e le azioni si sommano e si collegano in guisa da
+                    <lb n="341"/>riuscire quasi impossibile il determinare nello stesso ordine
+                    <lb n="342"/>di fatti la totale indipendenza dell' uno dall' altro. Infatti
+                    <lb n="343" break="no"/>il <persName><surname>De Rossi</surname></persName>, pur dividendo in quattro specie i fenomeni 
+                    <lb n="344"/>endogeni, ne trova due spettare all' ordine vulcanico e le
+                    <lb n="345"/>altre due esserne separate, mentre dalla successiva analisi 
+                    <lb n="346"/>apparisce che i non vulcanici talora si mostrano aver parte
+                    <lb n="347"/>nel vulcanismo, mentre i vulcanici spiegano qualche azione 
+                    <lb n="348"/>od influenza fra i fenomeni non reputati vulcanici.
+                </ab>
+                <ab xml:id="P3_Scienze_naturali">
+                    <lb n="349"/>Il terremoto ossia le agitazioni del suolo costituiscono
+                    <lb n="350"/>la prima serie dei fenomeni endogeni. Una seconda serie
+                    <lb n="351"/>di fenomeni endogeni spettanti al gruppo dei vulcanici 
+                    <lb n="352"/>sembra ai <persName><surname>De Rossi</surname></persName> costituita da fenomeni d'ordine erut-
+                    <lb n="353" break="no"/>tivo. La terza serie si forma colla circolazione delle acque,
+                    <lb n="354"/>che è giustamente considerata dallo <persName><surname>Stoppani</surname></persName> come una
+                    <lb n="355"/>manifestazione potentissima dei fenomeni endogeni. Viene
+                    <lb n="356"/>da ultimo il magnetismo terrestre, col quale i meteorolo-
+                    <lb n="357" break="no"/>gisti connettono le aurore boreali e che l'A. annovera
+                    <lb n="358"/>fra i fenomeni della dinamica interna, perciò che da un 
+                    <lb n="359"/>lato non siavi terremoto che vada disgiunto da perturba-
+                    <lb n="360" break="no"/>zioni magnetiche e dall' altro non ci sia periodo sismico 
+                    <lb n="361"/>che non manifesti connessioni con aurore boreali.
+                </ab>
+                <ab xml:id="P4_Scienze_naturali">
+                    <lb n="362"/>Premessa questa classificazione, il <persName><surname>De Rossi</surname></persName> passa in 
+                    <lb n="363"/>rassegna le fasi geologico-meteorologiche del dinamismo
+                    <lb n="364"/>tellurico in generale, studia le variazioni di livello delle 
+                    <lb n="365"/>acque sorgive e quelle di temperatura delle termo-minerali, 
+                    <lb n="366"/>ed indi entra in pieno campo della sismologia, descrivendo 
+                    <lb n="367"/>alcuni apparecchi sismografici e sismotrici.
+                </ab>
+                <ab xml:id="P5_Scienze_naturali">
+                    <lb n="368"/>È assai interessante il quadro, che traccia l'A., degli
+                    <lb n="369"/>studi italiani in argomento di terremoti, essendo ben noto
+                    <lb n="370"/>quanti valorosi cultori conti presso di noi questo ramo
+                    <lb n="371"/>dello scibile, e come ancora presso di noi abbia avuto ori-
+                    <lb n="372" break="no"/>gine, incremento e sviluppo la dottrina dei moti microsismici,
+                    <lb n="373"/>dalla quale non è troppo temerario il ripromettersi la so-
+                    <lb n="374" break="no"/>luzione del gravissimo problema relativo alla previsione dei
+                    <lb n="375"/>terremoti. Ma perchè ciò sia possibile è mestieri che gli
+                    <lb n="376"/>osservatorii sismici e microsismici si moltiplichino in <placeName type="nation">Italia</placeName>, 
+                    <lb n="377"/>perciocché allora soltanto i fenomeni isolati potranno pre-
+                    <lb n="378" break="no"/>sentare nel loro insieme un complesso di fatti il quale valga
+                    <lb n="379"/>a stabilire delle leggi. La via è tracciata.
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>
