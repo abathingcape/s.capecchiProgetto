@@ -1,2 +1,9 @@
 # Progetto codifica di testi (2024)
-Progetto di codifica di testi anno 2024
+In questa repositoty è contenuto il progetto per l'esame di codifica di testi dell'Universtià di Pisa.
+Il progetto è stato realizzato dallo studente Capecchi Samuele (mat. 623714) con il professor Angelo Mario Del Grosso
+in seguito i comandi per:
+
+##Validazione XML con Xerces
+'''
+java -cp "Xerces-J-bin.2.12.1/xerces-2_12_1/xml-apis.jar;Xerces-J-bin.2.12.1/xerces-2_12_1/xercesImpl.jar;Xerces-J-bin.2.12.1/xerces-2_12_1/xercesSamples.jar" dom.Counter -v progetto.xml
+'''
