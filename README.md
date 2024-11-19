@@ -4,6 +4,11 @@ Il progetto è stato realizzato dallo studente Capecchi Samuele (mat. 623714) co
 in seguito i comandi per:
 
 ## Validazione XML con Xerces
-'''
+```
 java -cp "Xerces-J-bin.2.12.1/xerces-2_12_1/xml-apis.jar;Xerces-J-bin.2.12.1/xerces-2_12_1/xercesImpl.jar;Xerces-J-bin.2.12.1/xerces-2_12_1/xercesSamples.jar" dom.Counter -v progetto.xml
-'''
+```
+
+## Conversione in XSLT con Saxon
+```
+java -jar ./SaxonHE10-3J/saxon-he-10.3.jar -s:progetto.xml -xsl:progetto.xsl -o:progetto.html
+```
