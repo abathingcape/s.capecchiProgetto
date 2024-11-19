@@ -1,6 +1,6 @@
 # Progetto codifica di testi (2024)
 In questa repositoty è contenuto il progetto per l'esame di codifica di testi dell'Universtià di Pisa.
-Il progetto è stato realizzato dallo studente Capecchi Samuele (mat. 623714) con il professor Angelo Mario Del Grosso
+Il progetto è stato realizzato dallo studente Capecchi Samuele (mat. 623714) con il professor Angelo Mario Del Grosso<br/>
 in seguito i comandi per:
 
 ## Validazione XML con Xerces
